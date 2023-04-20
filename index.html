@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/slick/slick.css">
+  <link rel="stylesheet" href="./assets/slick/slick-theme.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <script src="./assets/js/jquery-3.6.4.min.js" defer></script>
+  <link rel="stylesheet" href="./assets/css/responsive.css">
   <script src="./assets/js/bootstrap.min.js" defer></script>
-  <script src="./assets/js/main.js" defer></script>
   <title>Document</title>
 </head>
 
@@ -25,7 +26,12 @@
       <div class="container" id="con1">
         <div class="row d-flex">
           <div class="col-2">
-            <img src="./assets/ımg/1.svg" alt="">
+            <i id="bars-i" class="fa-solid fa-bars-staggered"></i>
+            <a href="#">
+              <img src="./assets/ımg/1.svg" alt="">
+            </a>
+            
+           
           </div>
           <div class="col-4" id="a1">
             <a href="#">Deals Todey
@@ -42,10 +48,12 @@
             </form>
           </div>
           <div class="col-3" id="a2">
-            <i class="fa-regular fa-heart"></i>
-            <a href="#">Wishlist</a>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <a href="#">Shopping</a>
+            <i id="wishlist-i" class="fa-regular fa-heart"></i>
+            <div id="wishlist-count">0</div>
+            <a id="wishlist" href="#">Wishlist</a>
+            <i id="shopping-i" class="fa-solid fa-bag-shopping"></i>
+            <div id="shopping-count">0</div>
+            <a id="shopping" href="#">Shopping</a>
           </div>
         </div>
       </div>
@@ -92,9 +100,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -216,9 +224,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -337,9 +345,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -458,9 +466,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -579,9 +587,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -699,9 +707,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
 
                                     </li>
@@ -820,9 +828,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
 
                                     </li>
@@ -941,9 +949,9 @@
                                             <a href="#"> <img src="./assets/ımg/14.png" alt=""> </a>
                                             <a href="#"> <img src="./assets/ımg/15.png" alt=""></a>
                                           </li>
-                                          
+
                                         </ul>
-      
+
                                       </div>
                                     </li>
                                     <li>
@@ -1101,77 +1109,67 @@
 
 
             <div class="dropdown3-content-w100">
-              <div class="row">
-                <div class="col-2">
-                  <div class="gadgets">
-                    <a href="#"><strong> Gadgets</strong></a>
-                    <a href="#">Smart Wearables</a>
-                    <a href="#">Headphones</a>
-                    <hr>
-                    <a href="#"><strong>Jewellers</strong></a>
-                    <a href="#">Fashion Jewellers</a>
-                    <a href="#">Fine Jewellers</a>
-                    <hr>
-                    <a href="#"><strong>Backpacks</strong></a>
-                    <a href="#"><strong>Handbags&Wallets</strong></a>
-                  </div>
+              <div class="d-flex categories-content">
+                <div class="gadgets">
+                  <a href="#"><strong> Gadgets</strong></a>
+                  <a href="#">Smart Wearables</a>
+                  <a href="#">Headphones</a>
+                  <hr>
+                  <a href="#"><strong>Jewellers</strong></a>
+                  <a href="#">Fashion Jewellers</a>
+                  <a href="#">Fine Jewellers</a>
+                  <hr>
+                  <a href="#"><strong>Backpacks</strong></a>
+                  <a href="#"><strong>Handbags&Wallets</strong></a>
+                </div>
 
+                <div class="topwear">
+                  <a href="#"><strong>Top Wear</strong></a>
+                  <a href="#">T-Shirt</a>
+                  <a href="#">Casual Shirts</a>
+                  <a href="#">Formal Shirts</a>
+                  <a href="#">Blazwers & Coats</a>
+                  <a href="#">Suits</a>
+                  <a href="#">Jackets</a>
+                  <hr>
+                  <a href="#"><strong>Belt,Scarves $ More</strong></a>
+                  <a href="#"><strong>Watches & Wearables</strong></a>
                 </div>
-                <div class="col-3">
-                  <div class="topwear">
-                    <a href="#"><strong>Top Wear</strong></a>
-                    <a href="#">T-Shirt</a>
-                    <a href="#">Casual Shirts</a>
-                    <a href="#">Formal Shirts</a>
-                    <a href="#">Blazwers & Coats</a>
-                    <a href="#">Suits</a>
-                    <a href="#">Jackets</a>
-                    <hr>
-                    <a href="#"><strong>Belt,Scarves $ More</strong></a>
-                    <a href="#"><strong>Watches & Wearables</strong></a>
-                  </div>
+                <div class="footwear">
+                  <a href="#"><strong>Footwear</strong></a>
+                  <a href="#">Flats</a>
+                  <a href="#">Casual Shoes</a>
+                  <a href="#">Heels</a>
+                  <a href="#">Boots</a>
+                  <hr>
+                  <a href="#"><strong>Sports & Active Wear </strong></a>
+                  <a href="#">Clothing</a>
+                  <a href="#">Footwear</a>
+                  <a href="#">Sport Accessories</a>
                 </div>
-                <div class="col-3">
-                  <div class="footwear">
-                    <a href="#"><strong>Footwear</strong></a>
-                    <a href="#">Flats</a>
-                    <a href="#">Casual Shoes</a>
-                    <a href="#">Heels</a>
-                    <a href="#">Boots</a>
-                    <hr>
-                    <a href="#"><strong>Sports & Active Wear </strong></a>
-                    <a href="#">Clothing</a>
-                    <a href="#">Footwear</a>
-                    <a href="#">Sport Accessories</a>
-                  </div>
+                <div class="t-Shirt">
+                  <a href="#"><strong>Top Wear</strong></a>
+                  <a href="#">T-Shirt</a>
+                  <a href="#">Casual Shirts</a>
+                  <a href="#">Formal Shirts</a>
+                  <a href="#">Blazwers & Coats</a>
+                  <a href="#">Suits</a>
+                  <a href="#">Jackets</a>
+                  <hr>
+                  <a href="#"><strong>Belt,Scarves $ More</strong></a>
+                  <a href="#"><strong>Watches & Wearables</strong></a>
                 </div>
-                <div class="col-2">
-                  <div class="t-Shirt">
-                    <a href="#"><strong>Top Wear</strong></a>
-                    <a href="#">T-Shirt</a>
-                    <a href="#">Casual Shirts</a>
-                    <a href="#">Formal Shirts</a>
-                    <a href="#">Blazwers & Coats</a>
-                    <a href="#">Suits</a>
-                    <a href="#">Jackets</a>
-                    <hr>
-                    <a href="#"><strong>Belt,Scarves $ More</strong></a>
-                    <a href="#"><strong>Watches & Wearables</strong></a>
-                  </div>
-                </div>
-                <div class="col-2">
-                  <div class="formal-shirt">
-                    <a href="#"><strong>Top Wear</strong></a>
-                    <a href="#">T-Shirt</a>
-                    <a href="#">Casual Shirts</a>
-                    <a href="#">Formal Shirts</a>
-                    <a href="#">Blazwers & Coats</a>
-                    <a href="#">Suits</a>
-                    <a href="#">Jackets</a>
-                    <hr>
-                    <a href="#"><strong>Belt,Scarves $ More</strong></a>
-                    <a href="#"><strong>Watches & Wearables</strong></a>
-                  </div>
+                <div class="formal-shirt">
+                  <a href="#"><strong>Top Wear</strong></a>
+                  <a href="#">T-Shirt</a>
+                  <a href="#">Casual Shirts</a>
+                  <a href="#">Formal Shirts</a>
+                  <a href="#">Blazwers & Coats</a>
+                  <a href="#">Suits</a>
+                  <a href="#">Jackets</a>
+                  <hr>
+                  <a href="#"><strong>Belt,Scarves $ More</strong></a>
+                  <a href="#"><strong>Watches & Wearables</strong></a>
                 </div>
               </div>
             </div>
@@ -1217,9 +1215,349 @@
 
 
   <main>
+    <section id="slider">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="cards">
+              <a href=""><img src="./assets/ımg/16.webp" alt=""></a>
+              <a href=""><img src="./assets/ımg/17.webp" alt=""></a>
+              <a href=""><img src="./assets/ımg/18.webp" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Browse Categories</h3>
+          </div>
 
 
+
+
+          <div class="slider" style="width: 100%; ">
+            <div class="slide">
+              <a href="#">
+                <div>
+                  <i class="fa-solid fa-venus "></i>
+                  <h5>Woman</h5>
+                  <p>5 brands,20+product</p>
+                </div>
+
+              </a>
+            </div>
+            <div class="slide">
+              <a href="#">
+                <div>
+                  <i class="fa-solid fa-venus "></i>
+                  <h5>Woman</h5>
+                  <p>5 brands,20+product</p>
+                </div>
+              </a>
+            </div>
+            <div class="slide">
+              <a href="#">
+                <div>
+                  <i class="fa-solid fa-venus "></i>
+                  <h5>Woman</h5>
+                  <p>5 brands,20+product</p>
+                </div>
+              </a>
+
+            </div>
+            <div class="slide">
+              <a href="#">
+                <div>
+                  <i class="fa-solid fa-venus "></i>
+                  <h5>Woman</h5>
+                  <p>5 brands,20+product</p>
+                </div>
+              </a>
+
+            </div>
+            <div class="slide">
+              <div>
+                <a href="#">
+                  <div>
+                    <i class="fa-solid fa-venus "></i>
+                    <h5>Woman</h5>
+                    <p>5 brands,20+product</p>
+                  </div>
+                </a>
+                <a href="#"><img src="http://fillmurray.com/300/300" alt="" class="img-responsive" /></a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="collection">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <a href="#"><img src="./assets/ımg/20.webp" alt=""></a>
+
+
+          </div>
+          <div class="col-6">
+            <a href=""><img src="./assets/ımg/21.webp" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="new-Arrivals">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>New Arrivals</h3>
+          </div>
+          <div class="col-2">
+            <a href="#"><strong>All Collection</strong> </a>
+          </div>
+          <div class="col-2">
+            <a href="#"> <strong>Mens Collection</strong> </a>
+          </div>
+          <div class="col-2">
+            <a href="#"> <strong>Womens Collection</strong> </a>
+          </div>
+          <div class="col-6">
+            <a href="#"> <strong>Kids Collection</strong> </a>
+          </div>
+          <strong><hr></strong>
+          
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <section id="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/22.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/23.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/24.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/25.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/26.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/27.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+           
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/28.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div class="col-3">
+            <a href="#" title="Armani Veni Vidi Vici">
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/ımg/29.webp" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  4.5
+                  <p class="card-text">Armani Veni Vidi Vici</p>
+                  <p id="fendi">Fendi began life in 1925 as a fur and l...
+                    $20.00
+                  </p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="top-Brands-Deal">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="top-Brands-Deal">
+              <h2>Top Brands Deal</h2>
+              <p>Up To 60% off on brands</p>
+              <div class="slider2" style="width: 100%; ">
+                <div class="slide">
+                  <a href="#">
+                    <img src="./assets/ımg/8.webp" alt="">
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="#">
+                    <img src="./assets/ımg/9.webp" alt="">
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="#">
+                    <img src="./assets/ımg/10.webp" alt="">
+                  </a>
     
+                </div>
+                <div class="slide">
+                  <a href="#">
+                    <img src="./assets/ımg/11.webp" alt="">
+                  </a>
+    
+                </div>
+                <div class="slide">
+                    <a href="#">
+                      <img src="./assets/ımg/12.webp" alt="" class="img-responsive" />
+                    </a>
+                </div>
+                <div class="slide">
+                  <a href="#">
+                    <img src="./assets/ımg/13.webp" alt="" class="img-responsive" />
+                  </a>
+              </div>
+              <div class="slide">
+                <a href="#">
+                  <img src="./assets/ımg/11.webp" alt="" class="img-responsive" />
+                </a>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-Products">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Featured Products</h3>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/ımg/30.webp" class="card-img-top" alt="...">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
 
 
 
@@ -1234,6 +1572,10 @@
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="./assets/slick/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
 
 
 </body>

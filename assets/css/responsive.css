@@ -1,0 +1,29 @@
+@media  (max-width:1000px){
+
+    
+
+
+    #a1 a{
+        display: none;
+    }
+    #con1 form{
+        display: none;
+    }
+    #a2 #shopping,#wishlist,#shopping-i,#shopping-count{
+        display: none;
+    }
+    #con2,nav hr{
+        display: none;
+    }
+    #con1 img{
+        margin-left:40px;
+    }
+    #con1 #bars-i{
+        position: absolute;
+        margin-top: 35px;
+        display: block;
+    }
+
+
+    
+}

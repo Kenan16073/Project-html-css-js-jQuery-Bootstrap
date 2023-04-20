@@ -5,8 +5,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open sans', sans-serif;
+
 }
 
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  position: relative;
+  width: 100%;
+}
+#bars-i{
+  display: none;
+}
 
 #con1 img {
   margin-top: 32px;
@@ -28,11 +41,15 @@
 
 }
 
+.cards img {
+  width: 100%;
+}
+
 form {
   color: #555;
   display: flex;
   margin-top: 20px;
-  width: 400px;
+  width: 385px;
   height: 50px;
   padding: 2px;
   border: 0px solid currentColor;
@@ -161,6 +178,7 @@ nav hr {
   background-color: #000000;
 }
 
+
 #con2 #a3 {
   display: flex;
   justify-content: start;
@@ -210,11 +228,13 @@ nav hr {
   background-color: #ffffff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  width: 200px;
+  height: 200px;
 }
 
 .dropdown2-content a {
   color: black;
-  padding-left: 12px;
+  padding-left: 30px;
   text-decoration: none;
   display: block;
 }
@@ -935,4 +955,145 @@ a3 .dropdown3-content-w100 a:hover {
   height: 165px;
 
 
+}
+
+.dropdown3-content-w100 {
+  width: 1000px !important;
+}
+
+.dropdown3-content-w100 a {
+  padding: 20px 10px !important;
+}
+
+.categories-content div {
+  width: 240px !important;
+}
+
+#slider h3 {
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.slider {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.parent-slide {
+
+  padding: 15px;
+}
+.slider .slick-prev:before{
+color: #000000;
+}
+
+.slider  .slick-next:before  {
+  color: #000000;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.slider .slide a{
+  text-decoration: none;
+}
+.slider .slide a div{
+  border-radius: 20px;
+  width: 370px;
+  height: 100px;
+  background-color: #f9f9f9;;
+}
+.slider .slide a div h5 {
+  position: absolute;
+  color: #000000;
+  margin-left: 200px;
+  bottom: 40px;
+}
+.slider .slide a div i{
+
+  margin-right:220px ;
+  margin-top: 20px;
+  color: black;
+  font-size: 60px;
+}
+.slider .slide a div p{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 200px;
+
+  color: rgb(203, 199, 199);
+}
+#collection img{
+  margin-top: 30px;
+  width: 600px;
+  height: 331px;
+}
+
+#new-Arrivals h3 {
+  font-weight: 800;
+  margin-top: 40px;
+}
+#new-Arrivals a{
+  text-decoration: none;
+  color: #000000;
+}
+#card  a{
+  color: #000000;
+  text-decoration: none;
+}
+#card .card{
+  border: none;
+  margin-top: 30px;
+}
+#card .card i{
+  color: yellow;
+}
+#card .card-body #fendi{
+  color: #bbb;
+  font-weight: 100;
+  font-size: 14px;
+}
+#card  a .card:hover{
+  box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2);
+}
+#top-Brands-Deal .top-Brands-Deal{
+  width: 100%;
+  height: 250px;
+  margin-top: 65px;
+  border-radius: 10px;
+  background-color: #004743;
+}
+#top-Brands-Deal .top-Brands-Deal h2{
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+  font-weight: 700;
+
+}
+#top-Brands-Deal .top-Brands-Deal p{
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+#top-Brands-Deal .top-Brands-Deal .slider2 .slick-prev:before{
+  display: none;
+}
+
+#top-Brands-Deal .top-Brands-Deal .slider2   .slick-next:before{
+  display: none;
+}
+#top-Brands-Deal .top-Brands-Deal .slider2 .slide img{
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+#featured-Products h3{
+  font-weight: 800;
+  margin-top: 40px;
 }
