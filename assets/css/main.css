@@ -1342,3 +1342,260 @@ img {
 .collection button:hover a{
   color: #000000;
 }
+#recently-View-Products h3{
+  font-weight: 800;
+  margin-top: 40px;
+}
+#recently-View-Products .slider2 .slide a{
+  text-decoration: none;
+  color: #000000;
+}
+#recently-View-Products .slider2 .slide:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+#recently-View-Products .slider2 .slide .card2{
+  padding-left:60px ;
+}
+#recently-View-Products .slider2 .slide .card2 #status{
+  position: absolute;
+  top: 15px;
+  background-color: #000000;
+  color: white;
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 13px;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+}
+#recently-View-Products .slider2 .slide .card2 #status2{
+  position: absolute;
+  top: 45px;
+  background-color: #e72e2e;
+  color: white;
+  padding-left: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  width: 80px;
+  height: 20px;
+  border-radius: 5px;
+}
+#recently-View-Products .slider2 .slide .card2 i{
+  color: yellow;
+}
+#recently-View-Products .slider2 .slide .card2 #fendi{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#app-google .app{
+  position: relative;
+  margin-top: 50px;
+  width: 100% ;
+  height: 450px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+#app-google .app h3{
+  position: absolute;
+  margin-left: 100px;
+  font-weight: 700;
+  margin-top: 90px;
+}
+#app-google .app h1{
+  position: absolute;
+  width: 500px;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 140px;
+}
+#app-google .app img{
+  border-radius: 10px;
+}
+#app-google .app #btn1{
+  margin-top: 330px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 100px;
+}
+#app-google .app #btn1:hover{
+  filter: brightness(1.70);
+  transition: all .5s;
+}
+#app-google .app #btn2{
+  border-radius: 10px;
+  border: none;
+}
+#app-google .app #btn2:hover{
+  filter: brightness(1.70);
+  transition: all .5s;
+}
+#app-google .app #iphone{
+  position: absolute;
+  bottom: 0px;
+  right: -40px;
+  width: 400px;
+  height: 400px;
+  margin-right: 100px ;
+  margin-top: 200px;
+}
+#testimonial h3{
+  font-weight: 800;
+  margin-top: 40px;
+}
+#testimonial .card{
+  margin-top: 30px;
+  box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2)
+  
+}
+
+#testimonial img{
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+#testimonial .card-body h4{
+  position: absolute;
+  font-weight: 500;
+  margin-left: 100px;
+  margin-top: 30px;
+  top: 0px;
+}
+#testimonial .card-body i{
+  position: absolute;
+  color: yellow;
+  margin-left: 270px;
+  top: 0;
+  margin-top: 30px;
+}
+#testimonial .card-body p{
+  margin-top: 30px;
+}
+.content{
+  position: relative;
+  
+}
+
+#inst-foto .content img{
+  padding-left: 20px;
+  margin-top: 30px;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+#inst-foto #icoon{
+  position: absolute;
+  top: 0;
+  font-size: 100px;
+  margin-top: 70px;
+  margin-left: 75px;
+  color: white;
+  display: none;
+}
+
+#inst-foto .content:hover  #icoon{
+  display: block;
+  
+}
+#inst-foto .content:hover{
+  opacity: 0.5;
+  transition: all 0.6s;
+  
+}
+#expert h3{
+  font-weight: 800;
+  margin-top: 40px;
+}
+#expert p{
+  margin-top: 20px;
+  color: #8c8a8a;
+}
+#expert input{
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 65px;
+  padding-left: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+#expert button{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 50px;
+  height: 65px;
+  background-color: #000000;
+}
+#expert button:hover{
+  filter: brightness(1.70);
+  transition: all .5s;
+}
+.container-fluid{
+  margin-top: 60px;
+}
+footer a img{
+  position: absolute;
+  margin-top: 70px;
+}
+footer p{
+  width: 200px;
+  font-weight: 100;
+  margin-top: 130px;
+}
+footer #footer-icon i{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: #555;
+}
+footer h4{
+  margin-top: 60px;
+}
+footer #inst{
+  margin-top: 30px;
+}
+footer #twit{
+  margin-top: 30px;
+}
+footer #fb{
+  margin-top: 20px;
+}
+footer #yt{
+  margin-top: 25px;
+}
+footer h6{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+footer #maser-card{
+margin-top: 10px;
+}
+footer #visa{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+footer #paypal{
+  margin-top: 12px;
+  margin-left: 130px;
+}
+footer #jcb{
+  margin-top: 12px;
+  margin-left: 230px;
+}
+footer #scrill{
+  margin-top: 12px;
+  margin-left: 280px;
+}
+footer #scrool{
+  position: absolute;
+  margin-top: 10px;
+}
+footer #scrool i{
+  margin-left: 10px;
+}
