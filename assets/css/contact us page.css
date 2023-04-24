@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#find-us-here{
+    margin-top: 70px;
+}
+#find-us-here .cardd{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(191, 185, 185);
+    border-radius: 5px;
+}
+#find-us-here .cardd .find{
+    padding: 30px;
+    padding-bottom: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+#find-us-here .cardd .adres .loc{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(191, 185, 185);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 13px;
+    padding-top: 9px;
+}
+#find-us-here .cardd .adres h6{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+#find-us-here .cardd .adres p{
+    width: 400px;
+    font-size: 13px;
+    margin-left: 10px;
+    color: gray;
+
+}
+#find-us-here .cardd .map img{
+    width: 350px;
+    height: 165px;
+    border-radius: 5px;
+}
+#find-us-here h2{
+    font-weight: 700;
+}
+#find-us-here .name{
+    margin-top: 20px;
+}
+#find-us-here .name label{
+    font-size: 15px;
+    font-weight: 500;
+}
+#find-us-here .name input{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+#find-us-here .name textarea{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#find-us-here .name button{
+    margin-top: 15px;
+    width: 170px;
+    height: 55px;
+    margin-bottom: 50px;
+}

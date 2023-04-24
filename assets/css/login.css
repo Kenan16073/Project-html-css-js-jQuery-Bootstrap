@@ -216,21 +216,21 @@
     margin-top: 19%;
     margin-left: 27%;
 }
-main .container{
+#expert .container{
     background-color: #f5f2f2;
     border-radius: 5px;
     height: 200px;
     margin-top: 100px;
 }
-main .container h3{
+#expert .container h3{
     margin-top: 80px;
     margin-left: 40px;
     font-weight: 800;
 }
-main .container p{
+#expert .container p{
     margin-left: 40px;
 }
-main .container input{
+#expert .container input{
     margin-top: 90px;
     height: 60px;
     border-radius: 5px;
@@ -240,11 +240,12 @@ main .container input{
     background-color: white;
 
 }
-main .container button{
+#expert .container button{
     height: 65px;
+    margin-top: 90px;
     background-color: #000000;
 }
-main .container button:hover{
+#expert .container button:hover{
     background-color: #000000;
     filter: brightness(1.90);
     transition: all .5s;

@@ -22,40 +22,43 @@ nav #con2 a img{
 .container #casual-Wear{
     margin-top: 40px;
 }
-
-
-
-
-
-
 .dropbtn {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 13px;
+    padding: 7px;
     font-size: 12px;
+    border-radius: 6px;
     border: 1px solid black;
-    margin-top: 40px;
+    margin-top: 50px;
+    height: 30px;
+  }
+  .dropbtn i{
+    margin-left: 20px;
   }
   .dropdown {
     position: relative;
     display: inline-block;
+    
   }
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
   }
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    padding-left: 50px;
   }
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #f0eeee;
+    color: rgb(96, 24, 24);
 }
   
   .dropdown:hover .dropdown-content {
@@ -141,4 +144,32 @@ nav #con2 a img{
     height: 20px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
+}
+#filters a{
+    text-decoration: none;
+    color: black;
+}
+#filters .card{
+    margin-top: 30px;
+    border: none;
+}
+#filters .card h6{
+    margin-top: 10px;
+}
+#filters .card p{
+    font-size: 14px;
+    color: gray;
+}
+#filters .card:hover{
+    box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2)
+}
+#filters .card-img{
+    justify-content: space-between;
+}
+#filters #load-more{
+    margin-left: 47%;
+    margin-top: 10%;
+    width: 130px;
+    height: 50px;
+    margin-bottom: 100px;
 }
