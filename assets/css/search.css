@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav #con2{
+    margin-top: 30px;
+}
+nav #con2 a img{
+    margin-top: 10px;
+}
+.container #link {
+    margin-top: 40px;
+}
+.container #link a{
+    text-decoration: none;
+    color: rgb(100, 97, 97);
+}
+.container #link a:hover{
+    color: black;
+}
+.container #casual-Wear{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 13px;
+    font-size: 12px;
+    border: 1px solid black;
+    margin-top: 40px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+.checkbox label{
+    font-weight: 200;
+    font-size: 15px;
+}
+#filters input{
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+    appearance: none;
+    border: 1px solid rgb(232, 229, 229);
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+#filters input:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+  transition: all .5s;
+}
+#filters input:checked{
+    background-color: rgb(255, 255, 255);
+}
+#filters input:checked::after{
+    position: relative;
+    top: -4px;
+    left: 2px;
+    content: '\2714';
+    color: white;
+}
+.checkbox div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.checkbox #gray{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.checkbox #white{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff(255, 254, 254);
+    border: 1px solid rgb(232, 229, 229);;
+}
+.checkbox #brown{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(65, 26, 26);
+}
+.checkbox #maroon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: maroon;
+}
+.checkbox #olive{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 128, 17);
+}
+.checkbox #blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.checkbox #black{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}

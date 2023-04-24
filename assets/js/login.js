@@ -1,8 +1,14 @@
 const togglePassword = document.querySelector('#password-inp');
   const password = document.querySelector('#eye');
 
-  togglePassword.addEventListener('click', function (e) {
-    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-    password.setAttribute('type', type);
-    this.classList.toggle('fa-eye-slash');
+  password.addEventListener('click', function (e) {
+    let type = togglePassword.getAttribute('type');
+    if(type === 'password'){
+      type = 'text';
+      this.className = 'fa-solid fa-eye-slash';
+    }else {
+      type = 'password';
+      this.className = 'fa-solid fa-eye';
+    }
+    togglePassword.setAttribute('type', type);
 });
