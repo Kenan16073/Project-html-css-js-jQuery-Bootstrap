@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+#tab-menu{
+    margin-top: 70px;
+}
+
+.tab {
+    float: left;
+    border: none;
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 15px 16px;
+    height: 50px;
+    width: 85%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.tab button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.tab button:hover {
+    background-color: #d7d6d6;
+}
+
+.tab button.active {
+    background-color: #ffffff;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: none;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+#tab-menu #Dashboard h3{
+    font-weight: 700;
+    margin-top: 20px;
+}
+#tab-menu #Dashboard p{
+    margin-top: 30px;
+    color: gray;
+}
+#tab-menu #Dashboard p a{
+    color: black;
+    font-weight: 700;
+}
+#tab-menu #Orders h3{
+    font-weight: 700;
+    margin-top: 20px;
+}
+#tab-menu #Orders .order-date{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(240, 237, 237);
+    padding: 15px;
+    font-weight: 700;
+}
+#tab-menu #Orders .complated{
+    margin-top: 30px;
+    
+}
+#tab-menu #Orders .complated button a{
+    text-decoration: none;
+    color: white;
+}
+#tab-menu #Orders .complated hr{
+    margin-top: 20px;
+}
+#tab-menu #Orders .complated button{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+#tab-menu #Orders .complated a{
+    color: black;
+}
+#tab-menu #account-Details h3{
+    font-weight: 700;
+    margin-top: 20px;
+}
+#tab-menu #account-Details label{
+    margin-top: 30px;
+}
+#tab-menu #account-Details input{
+    margin-top: 10px;
+    border: 1px solid rgb(220, 219, 219);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#tab-menu #account-Details p{
+    margin-top: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#tab-menu #account-Details .radio input{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+#tab-menu #account-Details .radio label{
+    margin: 0;
+    padding: 0;
+}
+#tab-menu #account-Details .radio button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    background-color: black;
+}
+#tab-menu #account-Details .radio button a{
+    text-decoration: none;
+    color: white;
+}
+#tab-menu #change-Password h3{
+    font-weight: 700;
+    margin-top: 20px;
+}
+#tab-menu #change-Password label{
+    margin-top: 20px;
+}
+#tab-menu #change-Password input{
+    margin-top: 10px;
+    border: 1px solid rgb(220, 219, 219);
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#tab-menu #change-Password button a{
+    color: white;
+    text-decoration: none;
+}
+#tab-menu #change-Password button{
+    margin-top: 20px;
+    width: 183px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
