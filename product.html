@@ -29,7 +29,7 @@
             <div class="container" id="con2">
                 <div class="row">
                     <div class="col-2">
-                        <a id="logo" href="#">
+                        <a id="logo" href="./index.html">
                             <img src="./assets/ımg/1.svg" alt="">
                         </a>
                     </div>
@@ -215,14 +215,15 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'Dashboard')"><i class="fa-solid fa-house fa-beat"></i> Dashboard</button>
+                            <button class="tablinks active" onclick="openCity(event, 'Dashboard')"><i class="fa-solid fa-house fa-beat"></i> &nbsp; &nbsp;  Dashboard</button>
                             <button class="tablinks" onclick="openCity(event, 'Orders')"><i class="fa-solid fa-cart-shopping fa-beat"></i> Orders</button>
                             <button class="tablinks" onclick="openCity(event, 'account-Details')"> <i class="fa-solid fa-user fa-beat"></i>Account Details</button>
                             <button class="tablinks" onclick="openCity(event, 'change-Password')"><i class="fa-solid fa-gear fa-beat"></i> Change Password</button>
-                            <button class="tablinks" onclick="openCity(event, 'logout')"><i class="fa-solid fa-arrow-right-from-bracket fa-beat"></i><a href="#">Logout</a> </button>
+                            <a href="index.html"> <button class="tablinks" onclick="openCity(event, 'logout')">  <i class="fa-solid fa-arrow-right-from-bracket fa-beat"></i>Logout </button></a>
+                           
                         </div>
 
-                        <div id="Dashboard" class="tabcontent">
+                        <div id="Dashboard" class="tabcontent active-tab">
                             <h3>Dashboard</h3>
                             <p>from your account dashboard you can view your <a href="#">recent orders</a> , manage your
                                 <a href="#">account details</a> and <a href="#">change your password.</a> </p>

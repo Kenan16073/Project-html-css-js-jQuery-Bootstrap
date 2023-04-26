@@ -15,13 +15,14 @@
 .container-fluid .parent img {
     vertical-align: middle;
     height: 450px;
+    
 }
 
 .container-fluid .parent .text {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     width: 100%;
     height: 100%;

@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#products .home{
+    margin-top: 30px;
+    color: gray;
+
+}
+#products .home a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.home-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+.maniac{
+    margin-top: 30px;
+}
+.maniac h2{
+    font-weight: 700;
+}
+.maniac p{
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 200;
+}
+.maniac h1{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.maniac hr{
+    margin-top: 30px;
+}
+.size p{
+    color: black;
+    font-weight: 500;
+}
+.size .s{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding-left:15px ;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.size .s:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+    transition: all .5s;
+}
+.size .m{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding-left:12px ;
+    padding-top: 7px;
+    margin-left: 12px;
+    cursor: pointer;
+
+}
+.size .m:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+    transition: all .5s;
+}
+.size .l{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding-left:15px ;
+    padding-top: 7px;
+    margin-left: 12px;
+    cursor: pointer;
+
+
+}
+.size .l:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+    transition: all .5s;
+}
+.size .xl{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding-left:12px ;
+    padding-top: 7px;
+    margin-left: 12px;
+    cursor: pointer;
+
+}
+.size .xl:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+    transition: all .5s;
+}
+.orang{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-top: 3px;
+
+}
+.orang:hover {
+    border: 1px solid black;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+
+.orang div{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: orange;
+    border-radius: 3px;
+}
+.darkmagenta{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 4px;
+    margin-left: 12px;
+
+    padding-top: 3px;
+
+}
+.darkmagenta:hover {
+    border: 1px solid black;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+
+.darkmagenta div{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 0, 255);
+    border-radius: 3px;
+}
+.blue{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 4px;
+    margin-left: 12px;
+
+    padding-top: 3px;
+
+}
+.blue:hover {
+    border: 1px solid black;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+
+.blue div{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    border-radius: 3px;
+}
+.red{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-top: 3px;
+    margin-left: 12px;
+
+
+}
+.red:hover {
+    border: 1px solid black;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+
+.red div{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+}
+.count{
+    display: flex;
+    border: 1px solid rgb(200, 199, 199);
+    width: 193px;
+    height: 48px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.count button:nth-child(1){
+    width: 55px;
+    height: 46px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-right: 1px solid rgb(200, 199, 199);
+    color: rgb(0, 0, 0);
+}
+.count button:nth-child(1):hover{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+.count button:nth-child(3){
+    width: 55px;
+    height: 46px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid rgb(200, 199, 199);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    filter: brightness(1.10);
+    transition: all .5s;
+}
+.count button:nth-child(3):hover{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 7px;
+}
+.count h2{
+    color: black;
+    margin: 0 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.add-to-card #add{
+    margin-left: 30px;
+    width: 240px;
+    height: 48px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.accordion-item div{
+    font-weight: 300;
+    font-size: 15px;
+}
+.your-Rating{
+    margin-left: 20px;
+}
+.your-Rating p{
+    font-weight: 500;
+    font-size: 13px;
+}
+.your-Rating i{
+    color: rgb(189, 189, 189);
+    cursor: pointer;
+}
+.your-Rating i:hover{
+    color: black;
+}
+.message{
+    margin-top: 20px;
+}
+.message label {
+    font-weight: 500;
+    font-size: 13px;
+}
+.message textarea{
+    width: 100% ;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 214, 214);
+}
+.name label{
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.name input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid rgb(215, 214, 214);
+
+
+}
+.box  input{
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+    appearance: none;
+    border: 1px solid rgb(232, 229, 229);
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.box  input:hover{
+    border: 1px solid black;
+    filter: brightness(1.70);
+  transition: all .5s;
+}
+.box  input:checked{
+    background-color: rgb(0, 0, 0);
+}
+.box  input:checked::after{
+    position: relative;
+    top: -4px;
+    left: 2px;
+    content: '\2714';
+    color: white;
+}
+.box label{
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.submit button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+#related-Products a{
+    text-decoration: none;
+    color: black;
+}
+#related-Products img{
+    border-radius: 5px;
+    object-fit: contain;
+
+}
+
+#related-Products .card{
+    margin-top: 80px;
+    border: none;
+}
+#related-Products #card2{
+    margin-left: 20px;
+}
+#related-Products #card3{
+    margin-left: 20px;
+}
+#related-Products #card4{
+    margin-left: 20px;
+}
+#related-Products #card5{
+    margin-left: 20px;
+}
+
+#related-Products .card:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: all .5s;
+}
+#related-Products #rel{
+    margin-top: 20px;
+    font-family: 100;
+}
+
