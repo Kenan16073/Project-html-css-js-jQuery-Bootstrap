@@ -48,12 +48,15 @@
             </form>
           </div>
           <div class="col-3" id="a2">
-            <i id="wishlist-i" class="fa-regular fa-heart"></i>
-            <div id="wishlist-count" class="shopping-count">0</div>
-            <a id="wishlist" href="#">Wishlist</a>
-            <i id="shopping-i" class="fa-solid fa-bag-shopping"></i>
-            <div id="shopping-count" class="shopping-count">0</div>
-            <a id="shopping" href="#">Shopping</a>
+            <div class="d-flex">
+              <i id="wishlist-i" class="fa-regular fa-heart"></i>
+              <div id="wishlist-count" class="shopping-count">0</div>
+              <a id="wishlist" href="#">Wishlist</a>
+              <i id="shopping-i" class="fa-solid fa-bag-shopping"></i>
+              <div id="shopping-count" class="shopping-count">0</div>
+              <a id="shopping" href="#">Shopping</a>
+            </div>
+
           </div>
         </div>
       </div>
@@ -1086,7 +1089,8 @@
 
 
 
-            <button id="btn1" class="btn btn-primary" type="button"><a href="./search.html"> <strong>Search</strong> </a></button>
+            <button id="btn1" class="btn btn-primary" type="button"><a href="./search.html"> <strong>Search</strong>
+              </a></button>
             <button id="btn2" class="btn btn-primary" type="button"><a href="#"><strong>Shops</strong></a></button>
 
 
@@ -1095,9 +1099,9 @@
               <button class="dropbtn3" for="btnControl">Pages <i class="fa-solid fa-chevron-down"></i></button>
               <div class="dropdown3-content">
                 <a href="#">Users</a>
-                <a href="./product.html" >My Account</a>
-                <a href="./login.html" >Sign In </a>
-                <a href="./register.html" >Sign UP</a>
+                <a href="./profile.html">My Account</a>
+                <a href="./login.html">Sign In </a>
+                <a href="./register.html">Sign UP</a>
                 <a href="#">Forget Pasword</a>
                 <a href="./checkout.html">Checkout </a>
                 <a href="#">Users</a>
@@ -1172,7 +1176,9 @@
           </div>
 
           <div class="col-2 p-0 m-0" id="a4">
-            <a href="../css/index.html"><i class="fa-regular fa-user"></i> Login</a>
+            <i class="fa-regular fa-user"></i>
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">
+              Login</a>
 
 
             <div class="dropdown2">
@@ -2045,7 +2051,7 @@
                   </div>
                 </a>
               </div>
-               <div class="slide">
+              <div class="slide">
                 <a href="#">
                   <div class="card2" style="width: 14rem;">
                     <img src="./assets/ımg/23.webp" class="card-img-top" alt="...">
@@ -2176,7 +2182,7 @@
                     </div>
                   </div>
                 </a>
-              </div>  
+              </div>
             </div>
           </div>
         </div>
@@ -2341,7 +2347,10 @@
       <hr>
     </div>
 
-    
+
+
+
+
 
 
 
@@ -2402,11 +2411,11 @@
             <a href="#">yourexample@email.com</a>
           </div>
           <div id="fb">
-        
+
             <a href="#">example@email.com</a>
           </div>
           <div id="yt">
-            
+
             <a href="#">Call us: +1 254 568-5479</a>
           </div>
 
@@ -2458,7 +2467,7 @@
 
 
         </div>
-        
+
       </div>
 
     </div>
@@ -2470,7 +2479,7 @@
     <div class="container">
       <div class="row">
         <div class="col-5">
-          <h6>Copyright © 2023 <strong>REDQ </strong>  All rights reserved</h6>
+          <h6>Copyright © 2023 <strong>REDQ </strong> All rights reserved</h6>
         </div>
         <div class="col-5">
           <a href="#"><img id="maser-card" src="./assets/ımg/46.svg" alt=""></a>
@@ -2487,8 +2496,80 @@
   </footer>
 
 
+  <section id="mod">
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="row">
+              <div class="col-12">
+                <div class="close">
+                  <div class="bt">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+                
+                <a href="#">
+                  <img src="./assets/ımg/1.svg" alt="">
+                </a>
+                <p>Login with your email & password</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-12">
+                <div class="email">
+                  <label for="">Email</label>
+                  <br>
+                  <input type="email" required="required">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="pasword">
+                  <label for="">Password</label>
+                  <br>
+                  <input type="password" required="required">
+                </div>
+                <div class="center">
+                  <input type="checkbox" name="">
+                  <a href="#">Remember me</a>
+                  <a id="forgot" href="#">Forgot password?</a>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="login">
+                      <button>Login</button>
+                    </div>
+                    <div class="facebook">
+                      <button><i class="fa-brands fa-square-facebook"></i> Login With Facebook</button>
+                    </div>
+                    <div class="gl">
+                      <button><i class="fa-brands fa-google"></i> Login With Google</button>
+                    </div>
+                    <div class="regis d-flex">
+                      <p>Don't have any account?</p>
+                      <a href="#">Register</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
 
-  
+
+
+
+
+
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"
     referrerpolicy="no-referrer"></script>
   <script src="./assets/slick/slick.min.js"></script>
