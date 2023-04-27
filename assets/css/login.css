@@ -43,69 +43,57 @@
 
 .login {
     width: 500px;
-    height: 650px;
+    height: 620px;
     border-radius: 10px;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 100px;
+    border: 1px solid rgb(208, 206, 206);
 
 }
 
-.login a {
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 13%;
-}
 
-.login p {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 8%;
+.login img{
+    margin-top: 30px;
+}
+.login p{
+    margin-left: 25%;
+    margin-top: 10px;
     color: gray;
 }
-
-.login #email {
-    position: absolute;
-    margin-top: 140px;
-    margin-left: 4%;
+.login #login{
+    margin-left: 50px;
 }
-
-.login #email-inp {
-    position: absolute;
-    margin-top: 170px;
-    margin-left: 4%;
-    width: 380px;
+.login #login #email{
+    font-weight: 400;
+}
+.login #login #email-inp{
+    width: 88%;
     height: 50px;
+    border: 1px solid rgb(208, 206, 206);
     border-radius: 5px;
-    border: 1px solid black;
-    padding-left: 15px;
-}
+    margin-top: 10px;
+    padding: 10px;
 
-.login #password {
-    position: absolute;
-    margin-top: 16%;
-    margin-left: 4%;
 }
+.login #login #password{
+    font-weight: 400;
+    margin-top: 20px;
 
-.login #password-inp {
-    position: absolute;
-    margin-top: 18%;
-    margin-left: 4%;
-    width: 380px;
+}
+.login #login #password-inp{
+    width: 88%;
     height: 50px;
+    border: 1px solid rgb(208, 206, 206);
     border-radius: 5px;
-    border: 1px solid black;
-    padding-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
 }
-
-
-
-
 
 .center {
     position: relative;
-    top: 52%;
-    margin-left: 60px;
+    top: 5%;
+    margin-left: 50px;
 }
 
 .center input[type="checkbox"] {
@@ -144,85 +132,56 @@
     left: 20px;
 }
 
-.center a {
-    position: relative;
-    right: 45px;
-    top: 0;
-    text-decoration: none;
+.center a{
+    margin-left: 105px;
+    font-weight: 300;
     color: #000000;
 }
-
-.login #forgot-pasword {
-    position: relative;
-    top: 48%;
-    margin-left: 62%;
-    color: #000000;
-}
-
-.login #forgot-pasword:hover {
+.center a:hover{
     text-decoration: none;
 }
 
-.login #submit {
-    position: relative;
-    margin-top: 68%;
-    margin-left: 12%;
-    width: 380px;
+.login #submit{
+    margin-left: 50px ;
+    margin-top: 50px;
+    width: 80%;
     height: 50px;
+    border: none;
     background-color: #000000;
-    border: none;
 }
-
-.login #submit:hover {
-    filter: brightness(1.90);
-    transition: all .5s;
-}
-.login  #fb{
-    position: relative;
-    margin-top: 6%;
-    margin-left: 12%;
-    width: 380px;
+.login #fb{
+    margin-left: 50px ;
+    margin-top: 20px;
+    width: 80%;
     height: 50px;
     border: none;
-    background-color: #312b7e;
+    background-color: #0f1676;
 }
 .login #google{
-    margin-left: 12%;
-    margin-top: 6%;
-    width: 380px;
+    margin-left: 50px ;
+    margin-top: 20px;
+    width: 80%;
     height: 50px;
     border: none;
-    background-color: #0f66fd;
-}
-.login  #fb:hover{
-    filter: brightness(1.30);
-    transition: all .5s;
-}
-.login #google:hover{
-    filter: brightness(1.30);
-    transition: all .5s;
-}
-.login #accaunt{
-    position: absolute;
-    bottom: -80%;
-    color: #000000;
+    background-color: #0a6bea;
 }
 .login #register{
-    position: absolute;
-    bottom: -78%;
-    right: 42%;
+    margin-top: 10px;
+    margin-left: 5px;
     color: #000000;
+    font-weight: 700;
 }
 .login #register:hover{
     text-decoration: none;
 }
 .login #eye{
     position: absolute;
-    margin-top: 19%;
-    margin-left: 27%;
+    margin-top: 30px;
+    right: 38%;
 }
+
 #expert .container{
-    background-color: #f5f2f2;
+    background-color: #fafafa;
     border-radius: 5px;
     height: 200px;
     margin-top: 100px;
@@ -254,4 +213,4 @@
     background-color: #000000;
     filter: brightness(1.90);
     transition: all .5s;
-}
+} 

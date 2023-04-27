@@ -47,7 +47,7 @@ nav {
 }
 
 
-form {
+#form {
   color: #555;
   display: flex;
   margin-top: 20px;
@@ -1125,7 +1125,6 @@ img {
 }
 
 #card a .card:hover {
-  transform: scale(1.1);
   transition: transform .5s;
   box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2);
 }
@@ -1314,7 +1313,6 @@ img {
 }
 
 #card2 a .card:hover {
-  transform: scale(1.1);
   transition: transform .5s;
   box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2)
 }
@@ -1407,6 +1405,7 @@ img {
 #recently-View-Products .slider2 .slide:hover{
   transform: scale(1.1);
   transition: transform .5s;
+  
 }
 #recently-View-Products .slider2 .slide .card2{
   padding-left:60px ;
@@ -1723,16 +1722,13 @@ footer #scrool i{
 
 
 
-
-
-
-.center {
+#mod .center {
   position: relative;
   top: 7%;
   margin-left: 30px;
 }
 
-.center input[type="checkbox"] {
+#mod .center input[type="checkbox"] {
   position: relative;
   width: 40px;
   height: 23px;
@@ -1745,11 +1741,11 @@ footer #scrool i{
   cursor: pointer;
 }
 
-.center input:checked[type="checkbox"] {
+#mod .center input:checked[type="checkbox"] {
   background-color: #000000;
 }
 
-.center input[type="checkbox"]:before {
+#mod .center input[type="checkbox"]:before {
   content: '';
   position: absolute;
   width: 15px;
@@ -1766,26 +1762,26 @@ footer #scrool i{
 
 }
 
-.center input:checked[type="checkbox"]:before {
+#mod .center input:checked[type="checkbox"]:before {
   left: 15px;
 }
 
-.center a {
+#mod .center a {
   position: relative;
   top: 0;
   text-decoration: none;
   color: #000000;
   font-size: 15px;
 }
-.center #forgot{
+#mod .center #forgot{
   margin-left: 80px;
   font-size: 15px;
   text-decoration: underline;
 }
-.center #forgot:hover{
+#mod .center #forgot:hover{
   text-decoration: none;
 }
-.modal-body .login button{
+#mod .modal-body .login button{
   margin-left: 30px;
   border: 1px solid rgb(207, 207, 207);
   width: 85%;
@@ -1796,7 +1792,7 @@ footer #scrool i{
   color: white;
 
 }
-.modal-body .facebook button{
+#mod .modal-body .facebook button{
   margin-left: 30px;
   border: 1px solid rgb(207, 207, 207);
   width: 85%;
@@ -1806,7 +1802,7 @@ footer #scrool i{
   background-color: #0d4292;
   color: white;
 }
-.modal-body .gl button{
+#mod .modal-body .gl button{
   margin-left: 30px;
   border: 1px solid rgb(207, 207, 207);
   width: 85%;
@@ -1816,20 +1812,20 @@ footer #scrool i{
   background-color: #266fde;
   color: white;
 }
-.modal-body .regis{
+#mod .modal-body .regis{
   margin-left: 80px;
   margin-top: 10px;
 }
-.modal-body .regis a{
+#mod .modal-body .regis a{
   color: black;
   margin-left: 5px;
   font-weight: 600;
 }
-.modal-body .regis a:hover{
+#mod .modal-body .regis a:hover{
   text-decoration: none;
 }
 
-.modal-header .close .bt{
+#mod .modal-header .close .bt{
   position: relative;
   width: 35px;
   height: 35px;
@@ -1839,4 +1835,458 @@ footer #scrool i{
   background-color: white;
   top:-35px;
   left: 133%;
+}
+
+.dropbtn2 img{
+  width: 25px;
+  height: 15px;
+}
+.language-flag a{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.language-flag a:hover{
+  background-color: rgb(199, 197, 197) !important;
+}
+.language-flag img{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#mod2 .modal-content{
+  position: absolute;
+  right: -10%;
+ width: 900px;
+ height: 500px;
+}
+#mod2 .modal-body img{
+  object-fit: cover;
+  width: 330px;
+  height: 470px;
+
+}
+#mod2 .modal-body h4{
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+#mod2 .modal-body p{
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#mod2 .modal-body .s{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  padding-left: 15px;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#mod2 .modal-body .m{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  padding-left: 12px;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#mod2 .modal-body .l{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  padding-left: 15px;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#mod2 .modal-body .xl{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  padding-left: 11px;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#mod2 .modal-body #color{
+  margin-top: 20px;
+}
+#mod2 .modal-body .orang {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#mod2 .modal-body .orang div{
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: orange;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#mod2 .modal-body .orang:hover{
+  border: 1px solid black;
+  transition: all .5s;
+}
+
+
+
+
+#mod2 .modal-body .orchid {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#mod2 .modal-body .orchid div{
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: orchid;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#mod2 .modal-body .orchid:hover{
+  border: 1px solid black;
+  transition: all .5s;
+}
+
+
+#mod2 .modal-body .blue {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+#mod2 .modal-body .blue div{
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: blue;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#mod2 .modal-body .blue:hover{
+  border: 1px solid black;
+  transition: all .5s;
+}
+
+
+#mod2 .modal-body .red {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+#mod2 .modal-body .red div{
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: red;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#mod2 .modal-body .red:hover{
+  border: 1px solid black;
+  transition: all .5s;
+}
+
+
+
+#mod2 .count{
+  display: flex;
+  border: 1px solid rgb(200, 199, 199);
+  width: 193px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+#mod2 .count button:nth-child(1){
+  width: 55px;
+  height: 46px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-right: 1px solid rgb(200, 199, 199);
+  color: rgb(0, 0, 0);
+}
+#mod2 .count button:nth-child(1):hover{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  filter: brightness(1.10);
+  transition: all .5s;
+}
+#mod2 .count button:nth-child(3){
+  width: 55px;
+  height: 46px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-left: 1px solid rgb(200, 199, 199);
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  filter: brightness(1.10);
+  transition: all .5s;
+}
+#mod2 .count button:nth-child(3):hover{
+  background-color: black;
+  color: white;
+  border-top-left-radius: 7px;
+}
+#mod2 .count h2{
+  color: black;
+  margin: 0 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#mod2 .add-to-card #add{
+  margin-left: 30px;
+  width: 240px;
+  height: 48px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+#mod2 .add-to-card{
+  margin-top: 20px;
+}
+#mod2 #view{
+  border: none;
+  background-color: #000000;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+}
+#mod2 .close{
+  position: absolute;
+  top: -17px;
+  right: -20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-left: 3px;
+  padding-top: 3px;
+  background-color: white;
+}
+.slider3 a{
+  text-decoration: none;
+  color: black;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.wrapper {
+  width: 500px;
+}
+.wrapper .panels{
+  width: 255%;
+}
+
+@-webkit-keyframes checkbox-hack-bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+input[type=checkbox],
+input[type=radio] {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  clip: rect(0, 0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  z-index: -1;
+}
+input[type=checkbox][id=test1]:checked ~ .tabs .tab label[for=test1],
+input[type=radio][id=test1]:checked ~ .tabs .tab label[for=test1] {
+  color: #000000;
+  cursor: default;
+}
+input[type=checkbox][id=test1]:checked ~ .tabs .tab label[for=test1]::after,
+input[type=radio][id=test1]:checked ~ .tabs .tab label[for=test1]::after {
+  opacity: 1;
+}
+input[type=checkbox][id=test1]:checked ~ .panels #panel1,
+input[type=radio][id=test1]:checked ~ .panels #panel1 {
+  display: block;
+}
+input[type=checkbox][id=test2]:checked ~ .tabs .tab label[for=test2],
+input[type=radio][id=test2]:checked ~ .tabs .tab label[for=test2] {
+  color: #000000;
+  cursor: default;
+}
+input[type=checkbox][id=test2]:checked ~ .tabs .tab label[for=test2]::after,
+input[type=radio][id=test2]:checked ~ .tabs .tab label[for=test2]::after {
+  opacity: 1;
+}
+input[type=checkbox][id=test2]:checked ~ .panels #panel2,
+input[type=radio][id=test2]:checked ~ .panels #panel2 {
+  display: block;
+}
+input[type=checkbox][id=test3]:checked ~ .tabs .tab label[for=test3],
+input[type=radio][id=test3]:checked ~ .tabs .tab label[for=test3] {
+  color: #000000;
+  cursor: default;
+}
+input[type=checkbox][id=test3]:checked ~ .tabs .tab label[for=test3]::after,
+input[type=radio][id=test3]:checked ~ .tabs .tab label[for=test3]::after {
+  opacity: 1;
+}
+input[type=checkbox][id=test3]:checked ~ .panels #panel3,
+input[type=radio][id=test3]:checked ~ .panels #panel3 {
+  display: block;
+}
+input[type=checkbox][id=test4]:checked ~ .tabs .tab label[for=test4],
+input[type=radio][id=test4]:checked ~ .tabs .tab label[for=test4] {
+  color: #000000;
+  cursor: default;
+}
+input[type=checkbox][id=test4]:checked ~ .tabs .tab label[for=test4]::after,
+input[type=radio][id=test4]:checked ~ .tabs .tab label[for=test4]::after {
+  opacity: 1;
+}
+input[type=checkbox][id=test4]:checked ~ .panels #panel4,
+input[type=radio][id=test4]:checked ~ .panels #panel4 {
+  display: block;
+}
+
+.tabs-panel .tabs {
+  display: flex;
+}
+.tabs-panel .tabs .tab {
+  flex: 1;
+  flex-basis: auto;
+  flex-grow: 1;
+  position: relative;
+  width: 60%;
+  margin-top: 2.5rem;
+  margin-right: 0;
+  text-align: center;
+  color: #707a89;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s ease;
+}
+.tabs-panel .tabs .tab label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  height: 100%;
+  padding: 0 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+.tabs-panel .tabs .tab label .content .icon {
+  margin-bottom: 1rem;
+  font-size: 1.375rem;
+  text-align: center;
+}
+.tabs-panel .tabs .tab label .content .text {
+  margin-bottom: 1.563rem;
+  font-family: "Ubuntu", "Myriad Pro", sans-serif;
+  font-size: 0.875rem;
+}
+.tabs-panel .tabs .tab label::after {
+  content: "";
+  position: absolute;
+  bottom: -0.188rem;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+  background-color: #000000;
+  transition: opacity 0.3s ease-in-out;
+}
+.tabs-panel .tabs .tab:hover {
+  color: #000000;
+}
+.tabs-panel .separator {
+  width: 255%;
+  height: 3px;
+  margin-bottom: 2.5rem;
+  background-color: #aaa1a1;
+}
+.tabs-panel .panels {
+  border: none;
+}
+.tabs-panel .panels .tab-panel {
+  display: none;
+  border: none;
+}
+.tabs-panel .panels .tab-panel .content {
+  font-family: "Ubuntu", "Myriad Pro", sans-serif;
+  color: #707a89;
+  -webkit-animation: fade 0.3s linear;
+          animation: fade 0.3s linear;
 }
