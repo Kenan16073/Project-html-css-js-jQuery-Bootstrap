@@ -3806,10 +3806,10 @@
               <div class="col-5">
                 <img src="./assets/ımg/86.png" alt="">
               </div>
-              <div class="col-7">
+              <div class="col-7" data-id="1">
                 <h4>Armani Vendi Vici Vici</h4>
                 <p>Fendi began life in 1925 as a fur and leather speciality store in Rome.</p>
-                <h4>$17.99
+                <h4>17.99$
                 </h4>
                 <h5>Size</h5>
                 <div class="d-flex">
@@ -3855,7 +3855,6 @@
                     <button onclick="increment()">-</button>
                     <h2 id="counting"></h2>
                     <button onclick="decrement()">+</button>
-
                   </div>
                   <button id="add">Add to cart</button>
                 </div>
@@ -3863,16 +3862,12 @@
                 <div class="close">
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
   </section>
 
 
@@ -3882,10 +3877,35 @@
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"
-    referrerpolicy="no-referrer"></script>
-  <script src="./assets/slick/slick.min.js"></script>
-  <script src="./assets/js/main.js"></script>
+  <div class="shop">
+    <div class="row">
+      <div class="col-12">
+        <div class="cart d-flex">
+          <h4>Shopping cart</h4>
+          <i id="clos" class="fa-solid fa-x"></i>
+        </div>
+        <hr>
+
+        <div class="row">
+          <ul class="p-list">
+
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 
 </body>

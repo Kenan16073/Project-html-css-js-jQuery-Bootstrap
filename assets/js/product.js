@@ -1,14 +1,14 @@
 'use strict'
-let data = 1;
-document.querySelector("#counting").innerText = data;
+let data2 = 1;
+document.querySelector("#counting2").innerText = data2;
 
 function increment() {
-    if (data > 1) {
-        data = data - 1;
-        document.querySelector("#counting").innerText = data;
+    if (data2 > 1) {
+        data2 = data2 - 1;
+        document.querySelector("#counting2").innerText = data2;
     }
 }
 function decrement() {
-    data = data + 1;
-    document.querySelector("#counting").innerText = data;
+    data2 = data2 + 1;
+    document.querySelector("#counting2").innerText = data2;
 }
