@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 let basketBtn = document.querySelectorAll("#add");
 let arr = JSON.parse(localStorage.getItem("basket"));
@@ -55,7 +55,7 @@ function addBasket() {
     <p class="total_price"></p>
   </div>
 </div>
-<i class="fa-solid fa-trash-can"  style="font-size: 15px; cursor: pointer; color: black; " "></i>
+<i id="id" class="fa-solid fa-trash-can"  style="font-size: 25px; cursor: pointer; color: black; " "></i>
 </li>`;
       ul.innerHTML += li;
     });
@@ -85,8 +85,6 @@ function calculateTotalPrice() {
       sum += p.price.slice(0, p.price.length - 1) * p.count;
       totalPrice.innerHTML = sum;
     });
-     let ttt = totalPrice.innerHTML = sum + "$";
-     Math.round(ttt);
   }
 }
 calculateTotalPrice();
@@ -243,7 +241,7 @@ function decrement() {
 
 if (localStorage.getItem("basket") != null) {
   let data3 = 1;
-  document.querySelector("#counting3").innerText = data3;
+  document.querySelector("#counting3").innerHTML = data3;
   let bttn = document.querySelector(".bttn");
   let bttn2 = document.querySelector(".bttn2");
 
@@ -267,12 +265,18 @@ if (localStorage.getItem("basket") != null) {
 
 
 let icon = document.querySelector('#shopping-i')
+let icon2 = document.querySelector('#view')
 let bars_x = document.querySelector('#clos')
 let shop = document.querySelector('.shop')
 
 icon.addEventListener('click', () => {
   shop.classList.toggle('active');
 })
+
+icon2.addEventListener('click', () => {
+  shop.classList.toggle('active');
+})
+
 
 bars_x.addEventListener('click', () => {
   shop.classList.remove('active');

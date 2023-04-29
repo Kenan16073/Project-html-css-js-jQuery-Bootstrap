@@ -71,7 +71,9 @@ input[type="search"] {
   border-radius: inherit;
 
 }
-
+#shopping-i{
+  cursor: pointer;
+}
 input[type="search"]::placeholder {
   color: #bbb;
 }
@@ -2287,10 +2289,6 @@ input[type=radio] {
   width: 0;
   height: 0;
   clip: rect(0, 0, 0, 0);
-  visibility: hidden;
-  opacity: 0;
-  transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  z-index: -1;
 }
 
 input[type=checkbox][id=test1]:checked~.tabs .tab label[for=test1],
@@ -2590,3 +2588,11 @@ input[type=radio][id=test4]:checked~.panels #panel4 {
   font-weight: 600;
 }
 
+#clos{
+  cursor: pointer;
+}
+#id{
+  position: absolute;
+  top: 27%;
+  margin-left: 93%;
+}
