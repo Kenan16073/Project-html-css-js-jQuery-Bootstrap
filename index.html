@@ -3753,7 +3753,7 @@
                 <div class="center">
                   <input type="checkbox" name="">
                   <a href="#">Remember me</a>
-                  <a id="forgot" href="#">Forgot password?</a>
+                  <a id="forgot" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" href="#">Forgot password?</a>
                 </div>
                 <div class="row">
                   <div class="col-12">
@@ -3855,6 +3855,41 @@
     </div>
   </section>
 
+  <section id="mod3">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-12">
+                <img src="./assets/ımg/1.svg" alt="">
+                <p>We'll send you a link to reset your password</p>
+                <div id="close">
+                  <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <form action="">
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="email" id="email" required="required">
+                  <button >Resset Password</button>
+                </form>
+                <div class="back d-flex">
+                  <p>Back to</p>
+                  <a href="#">Login</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
 
@@ -3889,7 +3924,7 @@
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"
       referrerpolicy="no-referrer"></script> -->
-      <script src="./assets/js/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/jquery-3.6.4.min.js"></script>
     <script src="./assets/slick/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
 

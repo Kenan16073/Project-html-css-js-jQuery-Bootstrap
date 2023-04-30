@@ -221,7 +221,7 @@
                 <div class="center">
                   <input id="chec" type="checkbox" name="">
                   <label for="chec">Remember me</label>
-                  <a id="forgot-pasword" href="#">Forgot password?</a>
+                  <a id="forgot-pasword" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"  href="#">Forgot password?</a>
                 </div>
                 <button id="submit" class="btn btn-primary" type="button">Login</button>
                 <button id="fb" class="btn btn-primary" type="button"><i
@@ -390,6 +390,44 @@
       </div>
     </div>
   </footer>
+
+
+  <section id="mod3">
+    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first
+      modal</button>
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-12">
+                <img src="./assets/ımg/1.svg" alt="">
+                <p>We'll send you a link to reset your password</p>
+                <div id="close">
+                  <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <form action="">
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="email" id="email" required="required">
+                  <button >Resset Password</button>
+                </form>
+                <div class="back d-flex">
+                  <p>Back to</p>
+                  <a href="#">Login</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
